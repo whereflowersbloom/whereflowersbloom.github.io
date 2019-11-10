@@ -1,0 +1,9 @@
+.my-sketch{
+	position: absolute;
+	z-index: -3;
+	border: 1px solid red;
+}
+
+#Layer_1{
+	display:none;
+}

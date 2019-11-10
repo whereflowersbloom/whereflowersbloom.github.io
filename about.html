@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Where flowers bloom</title>
+    <meta name="description" content="Where flowers bloom website. Magazine, rivista, locarno, verscio, design, graphic design, switzerland. Indie magazine, issues" />
+    <meta name="keywords" content="where flowers bloom, magazine, rivista, locarno, verscio, losone" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+
+<body>
+    <div class="container-fluid main">
+        <div class="row navigation">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-7">
+                        logo
+                    </div>
+                    <div class="col-sm-2">
+                        <li>Shop</li>
+                    </div>
+                    <div class="col-sm-2">
+                        <ul>
+                            <li>Contatto</li>
+                            <li>About</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-1">
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>Whatsapp</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row content vModule4">
+            <div class="col-sm-1">
+            </div>
+            <div class="col-sm-11">
+                <div class="row title">
+                    <div class="col-sm-5">
+                        <p>About<p>
+                    </div>
+                </div>
+                <div class="row textBody vModule3">
+                    <div class="col-sm-6">
+                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and <span onmouseover="appearOnHover()" onmouseleave="resetOnLeave()">praising*</span> pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, <span onmouseover="appearOnHover('two')" onmouseleave="resetOnLeave()">because*</span> it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it?<p>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-4">
+                        <img id="imgone" class="img-fluid imgOnHover" src="img/placeholderIMg.jpg">
+                        <img class="img-fluid imgOnHover" id="imgTwo" src="img/grignani2.jpg">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row closing vModule4">
+            <div class="col-sm-12">
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        function appearOnHover(value) {
+            //console.log("'#img" + temp + "'")
+
+            document.getElementById("'img"+value).classList.add('visible');
+
+
+            /*switch(value){
+                case 'one':
+                document.querySelector("#imgOne").style.display = "block";
+                break;
+                case 'two':
+                document.querySelector("#imgTwo").style.display = "block";
+            }*/
+            
+        }
+
+        function resetOnLeave(value) {
+            document.querySelector("#" + "'" + value + "'").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'Normale Grotesk';
+    src: url('../fonts/NormaleGrotesk-Regular.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'GT_Super';
+    src: url('../fonts/GTSuperText-BookItalic.woff') format('woff');
+
+}
+
+/*
+* === BOOTSTRAP CORR ===
+*/
+
+.row,
+.col {}
+
+/*
+* === GLOBAL ===
+*/
+
+body {
+    font-family: Normale Grotesk;
+    font-size: 17px;
+    line-height: 1.5em;
+     !important
+}
+
+.main {
+    /*background-color: red;*/
+}
+
+ul,
+li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wfbLines {
+    position: absolute;
+    width: 84%;
+    height: 80%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 6.854em;
+    border-left: 1px solid #707070;
+    border-right: 1px solid #707070;
+    z-index: -1;
+}
+
+/*
+* — Vertical Distance Modules —
+*/
+
+.vModule1 {
+    margin-top: 17px;
+}
+
+.vModule2 {
+    margin-top: 1.618em;
+}
+
+.vModule3 {
+    margin-top: 2.618em;
+}
+
+.vModule4 {
+    margin-top: 4.236em;
+}
+
+.vModule5 {
+    margin-top: 6.854em;
+    line-height: 1em;
+}
+
+
+/*
+* === NAVIGATION ===
+*/
+
+.navigation {
+    margin-top: 10px;
+    font-size: 1.414em;
+}
+
+.navigation.li {
+    line-height: 24px;
+}
+
+.soMe {
+    font-size: 17px;
+    line-height: 1.15em;
+}
+
+
+/*
+* === CONTENT ===
+*/
+
+.content {
+    /*background-color: blue;*/
+}
+
+.title {
+    font-family: GT_Super;
+    font-size: 5.653em;
+}
+
+.textBody {
+    line-height: 1.15em;
+}
+
+.visible {
+    display: block;
+}
+
+.imgOnHover {
+    display: none;
+}
+
+.textBody span {
+    text-decoration: underline;
+}
+
+.textBody span:hover+.imgOnHover {
+    display: block;
+}
+
+
+/*
+* — Item element —
+*/
+.item {
+    margin-left: 10px;
+    font-size: 1.414em;
+}
+
+.itemText {
+    line-height: 1.15em;
+}
+
+.itemImage {
+    padding-right: 0px; /*per evitare che si attacchi al bordo su mobile*/
+}
+
+.itemDetailTitle {
+    font-size: 2.827em;
+    line-height: .8em;
+}
+
+.itemDetailDescription {
+    font-size: 1.414em;
+}
+
+.itemDetailSpecs {
+    line-height: 1.15em;
+}
+
+.itemDetailButton {
+    height: 50px;
+    width: 264px;
+    border-radius: 40px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.itemDetailButton:hover {
+    background-color: #424242;
+}
+
+.itemDetailImage {
+    margin-top: 15px;
+}
+
+
+
+
+/*
+* === MAJOR SECTION HEADING ===
+*/
+@media (min-width: 400px) {
+    .itemImage {
+        padding-right: 10px;
+    }
+
+}@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+    .itemImage {
+        padding-right: 0px;
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
