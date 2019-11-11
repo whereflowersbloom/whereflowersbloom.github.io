@@ -36,7 +36,13 @@ li {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
+    border: none !important;
+    background-color: transparent !important;
+    text-align: left !important;
+    padding: 0px !important;
+    padding-right: 15px !important;
 }
+
 
 .wfbLines {
     position: absolute;
@@ -95,9 +101,44 @@ li {
     line-height: 1.15em;
 }
 
+.hostToggler {
+    overflow: hidden;
+}
+
+.hamburger {
+    float: right;
+    text-align: right;
+}
+
+.brand_logo {
+    float: left;
+    width: 14%;
+}
+
+.brand_logo img {
+    width: 100%;
+}
 
 /*
-* === CONTENT ===
+* === COVER ===
+*/
+
+.cover_txt {
+    font-size: 5.653em;
+    font-family: GT_Super;
+    line-height: 1em;
+    letter-spacing: -4px;
+}
+
+.badge_ {
+    font-family: Normale Grotesk;
+    font-size: 0.618em;
+}
+
+
+
+/*
+* === SHOP ===
 */
 
 .content {
@@ -143,7 +184,8 @@ li {
 }
 
 .itemImage {
-    padding-right: 0px; /*per evitare che si attacchi al bordo su mobile*/
+    padding-right: 0px;
+    /*per evitare che si attacchi al bordo su mobile*/
 }
 
 .itemDetailTitle {
@@ -182,14 +224,29 @@ li {
 /*
 * === MAJOR SECTION HEADING ===
 */
-@media (min-width: 400px) {
+@media screen and (min-device-width : 375px) and (max-device-width : 812px) {
+
+    .cover_txt {
+        font-size: 2.827em;
+        word-break: break-word;
+    }
+
+    .hamburger {
+        float: right;
+    }
+
+    .brand_logo {
+        overflow: hidden;
+        width: 25%;
+    }
+
     .itemImage {
         padding-right: 10px;
     }
 
-}@media (min-width: 576px) {
-
 }
+
+@media (min-width: 576px) {}
 
 @media (min-width: 768px) {
     .itemImage {
