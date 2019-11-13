@@ -13,11 +13,16 @@
 * === BOOTSTRAP CORR ===
 */
 
-.row,
-.col {}
+.navbar-light .navbar-toggler {
+    color: rgb(0, 0, 0) !important;
+    border-color: transparent;
+     !important;
+    padding-right: 0px !important;
+    padding-top: 0px !important;
+}
 
-.navbar-collapse{
-    align-items: end!important;
+.navbar-collapse {
+    align-items: end !important;
 }
 
 /*
@@ -47,15 +52,19 @@ li {
 
 }
 
+a {
+    text-decoration: inherit!important;
+    color: black !important;
+}
 
 .wfbLines {
     position: absolute;
     width: 84%;
-    height: 80%;
+    height: 2px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    top: 6.854em;
+    top: 25%;
     border-left: 1px solid #707070;
     border-right: 1px solid #707070;
     z-index: -1;
@@ -120,6 +129,10 @@ li {
 .brand_logo img {
     display: inline-block;
     width: 75%;
+}
+
+.navbar-toggler p {
+    font-size: 1.618em;
 }
 
 .toggleMenu {}
@@ -254,17 +267,29 @@ li {
 */
 @media screen and (min-device-width : 375px) and (max-device-width : 812px) {
 
+    .wfbLines {
+        width: 80%;
+
+    }
+
     .cover_txt {
         font-size: 2.827em;
         word-break: break-word;
+        hyphens: manual;
     }
 
     .navigation li {
         line-height: 1.618em;
     }
 
+    .show {
+        background-color: white;
+        margin-bottom: 15px;
+    }
+
     .toggleMenu {
         margin-top: 15px;
+        border-top: 1px solid rgba(0, 0, 0, .1)
     }
 
     .toggleMenuEl {
