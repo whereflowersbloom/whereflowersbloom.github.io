@@ -6,6 +6,24 @@
     <meta name="description" content="Where flowers bloom website. Magazine, rivista, locarno, verscio, design, graphic design, switzerland. Indie magazine, issues" />
     <meta name="keywords" content="where flowers bloom, magazine, rivista, locarno, verscio, losone" />
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favico/favicon-16x16.png">
+    <link rel="manifest" href="img/favico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--<link rel="stylesheet" type="text/css" href="css/reset.css">-->
@@ -13,32 +31,44 @@
 </head>
 
 <body>
-    <div class="wfbLines"></div>
-    <div class="container-fluid main">
-        <div class="row navigation">
-            <div class="col-sm-12">
-                <div class="row">
-                    <div class="col-sm-7">
-                        logo
+    <div class="wfbLines" id="wfbLines"></div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="col-sm-12 vModule1 navigation">
+            <div class="row">
+                <div class="col-sm-7">
+                    <div class="row">
+                        <div class="brand_logo">
+                            <a class="navbar-brand" href="#"><img src="img/wfb_logo.svg"></a>
+                            <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#toggleMenu" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                                <p>menu</p>
+                            </button>
+                        </div>
                     </div>
-                    <div class="col-sm-2">
-                        <li>shop</li>
-                    </div>
-                    <div class="col-sm-2">
-                        <ul>
-                            <li>contatto</li>
-                            <li>about</li>
+                </div>
+                <div class="collapse navbar-collapse toggleMenu" id="toggleMenu">
+                    <div class="col-sm-5 toggleMenuEl">
+                        <ul class="list-group list-group-sm">
+                            <li class="list-group-item"><a href="index.html">magazine</a></li>
                         </ul>
                     </div>
-                    <div class="col-sm-1 soMe">
-                        <li>Instagram</li>
-                        <li>Facebook</li>
-                        <li>Whatsapp</li>
+                    <div class="col-sm-5 toggleMenuEl">
+                        <ul class="list-group list-group-sm">
+                            <li class="list-group-item"><a href="contact.html">contatto</a></li>
+                            <li class="list-group-item"><a href="about.html">about</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2 toggleSoMe">
+                        <ul class="list-group list-group-sm">
+                            <li class="list-group-item"><a href="https://www.instagram.com/where_flowers_bloom/" target="_blank">instagram</a></li>
+                            <li class="list-group-item"><a href="https://www.facebook.com/Whereflowersbloom2019/" target="_blank">facebook</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row content vModule4">
+    </nav>
+    <div class="container-fluid vModule5 main">
+        <div class="row content">
             <div class="col-sm-12">
                 <div class="row">
                     <div class="col-sm-2 itemDetailTitle">
@@ -50,29 +80,31 @@
                             <div class="col-sm-8">
                                 <div class="row">
                                     <div class="col-sm-12 itemDetailDescription">
-                                        <p>In questa prima uscita vogliamo stabilire le regole di un'edizione completamente autosufficiente a artigianalmente autoprodotta. Uno spazio dedicato ai giovani creativi Ticinesi, che vogliono avere la possibilità di raccontare dei propri progetti. Lo scopo è quello di mostrare la realtà di una comunità che lentamente sta fiorendo.</p>
+                                        <p>In questa prima edizione vogliamo stabilire le regole di una pubblicazione completamente autosufficiente a artigianalmente autoprodotta. Uno spazio dedicato ai giovani creativi Ticinesi, che vogliono avere la possibilità di raccontare dei propri progetti. Volgiamo quindi lo sguardo verso cinque progetti interdisciplinari di altrettanti artisti ticinesi, che scandiscono le cinque sezioni del numero uno di Where Flowers Bloom.</p>
                                     </div>
                                 </div>
                                 <div class="row vModule1 itemDetailSpecs">
                                     <div class="col-sm-5">
-                                        <p>Specs<br>
-                                            64 pages, handcrafted marbled cover,
-                                            printed in 100 pieces.</p>
+                                        <p>Specifiche<br>
+                                            13x21 cm, 64 pagine, copertina carta marmorizzata a mano 300 g/m2, interno carta riciclata non patinata FSC 90 g/m2,
+                                            stampato in 90 copie numerate</p>
                                     </div>
                                     <div class="col-sm-7">
-                                        <p>Featured Creatives<br>
-                                            Léonard Roy ->Graphic Deisgn, Roberto Schneeberger -> Type Design, Dzulija Jakimovska & Julia Kobzar -> Architecture, Leon Kessler -> Photograpy, Moony Dea --> Illustration</p>
+                                        <p>Creativi presenti<br>
+                                            Graphic Design &#8594 Sebastiano Pellanda <br>Type Design &#8594 Roberto Schneeberger<br> Architettura &#8594 Dzulija Jakimovska & Julia Kobzar<br> Fotografia &#8594 Leon Kessler<br> Illustrazione &#8594 Moony Dea</p>
                                     </div>
                                 </div>
                                 <div class="row vModule1">
                                     <div class="col-sm-12">
-                                        <button type="button" class="btn btn-primary btn-lg itemDetailButton">order: 12 + 7 CHF</button>
+                                        <a href="shopNotAvailable.html">
+                                            <button type="button" class="btn btn-primary btn-lg itemDetailButton">order: 12 + 7 CHF</button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!--Row images-->
-                        <div class="row vModule4">
+                        <div class="row vModule3">
                             <div class="col-sm-12">
                                 <div class="row">
                                     <div class="col-sm-3 vModule1">
@@ -100,6 +132,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
