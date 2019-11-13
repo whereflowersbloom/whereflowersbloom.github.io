@@ -16,6 +16,10 @@
 .row,
 .col {}
 
+.navbar-collapse{
+    align-items: end!important;
+}
+
 /*
 * === GLOBAL ===
 */
@@ -35,12 +39,12 @@ ul,
 li {
     list-style-type: none;
     margin: 0px;
-    padding: 0px;
     border: none !important;
     background-color: transparent !important;
     text-align: left !important;
     padding: 0px !important;
     padding-right: 15px !important;
+
 }
 
 
@@ -56,6 +60,7 @@ li {
     border-right: 1px solid #707070;
     z-index: -1;
 }
+
 
 /*
 * — Vertical Distance Modules —
@@ -82,6 +87,10 @@ li {
     line-height: 1em;
 }
 
+.vModule6 {
+    margin-top: 11.09em;
+}
+
 
 /*
 * === NAVIGATION ===
@@ -92,31 +101,34 @@ li {
     font-size: 1.414em;
 }
 
-.navigation.li {
+.myToggle {}
+
+.navigation ul {
+    vertical-align: top
+}
+
+.navigation li {
     line-height: 24px;
 }
 
-.soMe {
-    font-size: 17px;
-    line-height: 1.15em;
-}
 
-.hostToggler {
-    overflow: hidden;
-}
-
-.hamburger {
-    float: right;
-    text-align: right;
-}
 
 .brand_logo {
-    float: left;
-    width: 14%;
+    width: 100%;
 }
 
 .brand_logo img {
-    width: 100%;
+    display: inline-block;
+    width: 75%;
+}
+
+.toggleMenu {}
+
+.toggleMenuEl {}
+
+.toggleSoMe {
+    font-size: 17px;
+    line-height: 1.15em;
 }
 
 /*
@@ -130,15 +142,28 @@ li {
     letter-spacing: -4px;
 }
 
+
 .badge_ {
     font-family: Normale Grotesk;
-    font-size: 0.618em;
+    font-size: 0.382em;
+    letter-spacing: 0px;
 }
 
+.badge_ a {
+    text-decoration: none !important;
+    color: white !important;
 
+}
+
+.bottom {
+    position: absolute;
+    bottom: 4vh;
+    text-align: right;
+    font-size: 4.236em;
+}
 
 /*
-* === SHOP ===
+* === CONTENT ===
 */
 
 .content {
@@ -148,6 +173,10 @@ li {
 .title {
     font-family: GT_Super;
     font-size: 5.653em;
+}
+
+.sectionTitle {
+    font-size: 2.827em;
 }
 
 .textBody {
@@ -220,7 +249,6 @@ li {
 
 
 
-
 /*
 * === MAJOR SECTION HEADING ===
 */
@@ -231,14 +259,24 @@ li {
         word-break: break-word;
     }
 
-    .hamburger {
-        float: right;
+    .navigation li {
+        line-height: 1.618em;
     }
 
-    .brand_logo {
-        overflow: hidden;
-        width: 25%;
+    .toggleMenu {
+        margin-top: 15px;
     }
+
+    .toggleMenuEl {
+        padding-left: 0px !important;
+    }
+
+    .toggleSoMe {
+        margin-top: 15px;
+        line-height: 24px;
+        padding-left: 1.618em !important;
+    }
+
 
     .itemImage {
         padding-right: 10px;
