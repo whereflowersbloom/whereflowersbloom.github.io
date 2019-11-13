@@ -3,8 +3,14 @@ $(document).ready(function() {
 });
 
 function resizeDiv() {
-    let vph = document.body.offsetHeight
-    let yOffset = (($(window).height()) / 100) * 25
-    let newHeight = vph - yOffset
+    let totheight = document.body.offsetHeight
+    let vph = $(window).height()
+    if(totheight < vph) {
+        totheight = vph;
+    }
+
+    //console.log(totheight)
+    let startOffset = (vph / 100) * 25
+    let newHeight = totheight - startOffset
     $("#wfbLines").css({ "height": newHeight + "px" });
 }
