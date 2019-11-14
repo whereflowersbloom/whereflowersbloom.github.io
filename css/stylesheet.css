@@ -313,7 +313,73 @@ a {
     }
 
     .title {
-        font-size: 3.998em;
+        font-size: 3.998em!important;
+    }
+
+    .cover_txt {
+        font-size: 2.827em !important;
+        line-height: 1.2em;
+        word-break: break-word;
+        hyphens: manual;
+    }
+
+    .badge_ {
+        font-family: "Normale_Grotesk";
+        font-size: 0.618em;
+        letter-spacing: 0px;
+    }
+
+    .itemDetailButton {
+        width: 100%;
+        height: 60px;
+    }
+
+
+    .itemImage {
+        /*padding-right: 10px;*/
+        height: auto;
+    }
+
+}
+
+@media screen and (min-device-width : 340px) and (max-device-width : 375px) {
+
+    .wfbLines {
+        width: 80%;
+        border-left: 1px solid rgba(0,0,0,.1);
+        border-right: 1px solid rgba(0,0,0,.1);
+
+    }
+
+    .navigation li {
+        line-height: 1.618em;
+    }
+
+    button:focus {
+        outline: none !important;
+    }
+
+    .show {
+        margin-bottom: 15px;
+    }
+
+    .toggleMenu {
+        margin-top: 15px;
+        border-top: 1px solid rgba(0, 0, 0, .1)
+    }
+
+    .toggleMenuEl {
+        padding-left: 0px !important;
+    }
+
+    .toggleSoMe {
+        margin-top: 15px;
+        line-height: 24px;
+        padding-left: 1.618em !important;
+    }
+
+    .title {
+        font-size: 3.998em!important;
     }
 
     .cover_txt {
