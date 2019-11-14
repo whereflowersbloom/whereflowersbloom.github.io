@@ -197,6 +197,7 @@ a {
 .title {
     font-family: GT_Super;
     font-size: 5.653em;
+    padding-left: 0px !important;
 }
 
 .sectionTitle {

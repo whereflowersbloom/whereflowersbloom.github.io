@@ -1,5 +1,6 @@
 $(document).ready(function() {
     resizeDiv();
+
 });
 
 function resizeDiv() {
@@ -14,3 +15,5 @@ function resizeDiv() {
     let newHeight = totheight - startOffset
     $("#wfbLines").css({ "height": newHeight + "px" });
 }
+
+
